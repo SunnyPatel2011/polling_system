@@ -1,0 +1,59 @@
+.editsquestion .btns {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 80%;
+    overflow-y: auto;
+} 
+.optioned img{
+    width: 15px;
+    height: 15px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.editsquestion {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.editsquestion input[type="text"]{
+    margin-left: 50px;
+    margin-top: 30px;
+    background: none;
+    width: 50%;
+    border: none; 
+    border-bottom: 2px solid black;
+    outline: none; 
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 0;
+}
+.editsquestion input[type="text"]:focus {
+    border-bottom: 2.5px solid rgb(93, 93, 219); 
+}
+.editsquestion input[type="text"]::placeholder{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.hedaerBtn{
+    display: flex;
+    gap: 50%;
+    text-align: center;
+}
+.hedaerBtn button{
+    height: 40px;
+    width: 20%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.btnview button{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 52.5px;
+}
+.btnview button:hover{
+    background-color: #005ab9;
+    transition: 0.4s;
+}

@@ -1,0 +1,207 @@
+body{
+    background: #f7f7f7;
+}
+.pollcreates{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.pollcreates img{
+    padding: 20px;
+    width: 45px;
+    height: 50px;
+}
+.pollpara{
+    margin-top: 10px;
+}
+.pollpara p{
+    margin-top: 3px;
+    font-size: 20px;
+    color: rgb(151, 151, 151);
+}
+.pollpara span{
+    font-size: 25px;
+}
+
+.back{
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid rgb(223, 223, 223);
+    width: 50%;
+    height: 420px;
+    margin-top: 70px;
+    margin-left: 160px;
+}
+.pollers{
+    display: flex;
+    gap: 12%;  
+}
+.choices{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 2px;
+    border-radius: 5px;
+    width: 160px;
+    height: 100px;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.choices:hover{
+    transition: 0.3s;
+    box-shadow: 0px 15px 60px -20px rgb(206, 206, 206);
+    cursor: pointer;
+}
+.choices p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.choices img{
+    margin-top: 10px;
+    width: 40px;
+}
+
+
+
+.ranking{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 2px;
+    border-radius: 5px;
+    width: 160px;
+    height: 100px;
+    margin-left: 3%;
+    margin-top: 20px;
+}
+.ranking:hover{
+    transition: 0.3s;
+    box-shadow: 0px 15px 60px -20px rgb(206, 206, 206);
+    cursor: pointer;
+}
+.ranking p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.ranking img{
+    margin-top: 10px;
+    width: 40px;
+}
+
+.poller2{
+    display: flex;
+    gap: 12%;  
+}
+
+.quiz{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 2px;
+    border-radius: 5px;
+    width: 160px;
+    height: 100px;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.quiz:hover{
+    transition: 0.3s;
+    box-shadow: 0px 15px 60px -20px rgb(206, 206, 206);
+    cursor: pointer;
+}
+.quiz p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.quiz img{
+    margin-top: 10px;
+    width: 40px;
+}
+
+
+.open{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 2px;
+    border-radius: 5px;
+    width: 160px;
+    height: 100px;
+    margin-left: 3%;
+    margin-top: 20px;
+}
+.open:hover{
+    transition: 0.3s;
+    box-shadow: 0px 15px 60px -20px rgb(206, 206, 206);
+    cursor: pointer;
+}
+.open p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.open img{
+    margin-top: 10px;
+    width: 40px;
+}
+
+
+/**** CHOICES *****/
+
+.backgrounds {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    width: 50%;
+    height: 450px;
+    margin-top: -30%;
+    overflow-y: auto;
+}
+.backgrounds img{
+    margin-left: 95%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+hr{
+    margin-top: 10px;
+}
+.backgrounds input[type="text"]{
+    margin-left: 10%;
+    margin-top: 30px;
+    width: 50%;
+    border: none; 
+    border-bottom: 2px solid black;
+    outline: none; 
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.backgrounds input[type="text"]:focus {
+    border-bottom: 2.5px solid rgb(93, 93, 219); 
+}
+.backgrounds input[type="text"]::placeholder{
+    padding: 10px;
+    font-size: 20px;
+}
+.backgrounds button{
+    margin-left: 80%;
+    margin-top: 30%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 25px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.backgrounds button:hover{
+    background-color: #005ab9;
+    transition: 0.4s;
+}

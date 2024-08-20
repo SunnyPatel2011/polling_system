@@ -1,0 +1,57 @@
+button.submit {
+    cursor: pointer;
+    position: relative;
+    padding: 7px 20px;
+    font-size: 20px;
+    width: 473px;
+    border-radius: 4px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border: 2px solid;
+    transition: width 0.5s;
+}
+
+button.process {
+    width: 300px;
+}
+
+button.process::before {
+    content: ' ';
+    position: absolute;
+    background-color: #3bb78f;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 0%;
+    animation: processing 5s;
+    border-radius: 4px;
+    z-index: -1;
+}
+
+button.submitted {
+    padding-left: 30px;
+    animation: tick 0.6s;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+}
+
+@keyframes processing {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes tick {
+    0% {
+        transform: scale(0.1);
+    }
+    75% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

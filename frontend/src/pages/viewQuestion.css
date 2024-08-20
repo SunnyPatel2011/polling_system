@@ -1,0 +1,92 @@
+body{
+    background: #f7f7f7;
+}
+.viewquestion{
+    background: #bbd6d8;
+    border-radius: 10px;
+    border: 1px solid rgb(126, 126, 126);
+    width: 45%;
+    height: 420px;
+    margin-top: 70px;
+    margin-left: 160px;
+    position: relative;
+    overflow-y: auto;
+}
+
+.component{
+    background: #97D9E1;
+    border-radius: 10px;
+    border: 1px solid rgb(80, 80, 80);
+    width:96%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.mainquestion{
+    display: flex;
+    flex-direction: column;
+}
+.mainquestion p{
+    margin-left: 20px;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+.edit, .deletes{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+.edit {
+    right: 40px; 
+}
+
+.deletes {
+    right: 10px;
+}
+
+.count{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.viewer{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 1%;
+}
+.linker{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 85%;
+}
+
+
+
+.optionview {
+    background: #53c1dd;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 40%;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 12%;
+}
+.optionview img{
+    cursor: pointer;
+}
+
+.optionitem {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.optionitem p {
+    margin: 5px 0;
+}

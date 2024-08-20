@@ -1,0 +1,35 @@
+.header {
+    background: #80D0C7;
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.polli {
+    display: flex;
+    cursor: pointer;
+}
+.polli img {
+    height: 20px;
+    margin-left: 140%;
+    margin-top: 40px;
+}
+
+.polli .poller {
+    font-size: 20px;
+    margin-top: 45%;
+}
+
+.usernames {
+    position: absolute;
+    background: #85FFBD;
+    margin-left: 90%;
+    margin-top: 1%;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 100px;
+    cursor: pointer;
+}

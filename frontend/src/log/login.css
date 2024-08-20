@@ -1,0 +1,85 @@
+.login-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 5%;
+}
+
+.login-header h2 {
+    font-size: 30px;
+}
+
+.login-header p {
+    font-size: 16px;
+}
+
+.login-header h6 {
+    font-size: 15px;
+    margin-top: 3%;
+}
+
+.login-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.login-form input {
+    padding: 3px;
+    height: 35px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+}
+
+.login-form input:hover {
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.login-btn button {
+    width: 35%;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.login-btn button:hover {
+    box-shadow: inset 0px 22px 54px -44px rgba(255,255,255,1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sign-up-redirect{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.sign-up-redirect span{
+    color: #a8a8a8;
+    text-decoration: underline;
+}
+.sign-up-redirect span:hover{
+    color: black;
+    transition: 0.4s;
+    cursor: pointer;
+}
